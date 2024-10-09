@@ -23,6 +23,21 @@ p {
     font-family: 'Dancing Script', cursive;
     color: black;
 }
+
+@media (max-width: 1080px) {
+    .invitation-container {
+        padding: 20px;
+    }
+
+    .date-time-location p {
+        font-size: 1.5em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 1.2em;
+    }
+}
+
 @media (max-width: 768px) {
     .invitation-container {
         padding: 15px;
