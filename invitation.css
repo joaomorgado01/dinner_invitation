@@ -30,11 +30,11 @@ p {
     }
 
     .date-time-location p {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     .top-left p, .bottom-right p {
-        font-size: 1.2em;
+        font-size: 2.3em;
     }
 }
 
@@ -44,11 +44,11 @@ p {
     }
 
     .date-time-location p {
-        font-size: 1.2em;
+        font-size: 1.75em;
     }
 
     .top-left p, .bottom-right p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
 
@@ -59,10 +59,10 @@ p {
     }
 
     .date-time-location p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .top-left p, .bottom-right p {
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 }
