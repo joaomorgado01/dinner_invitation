@@ -34,3 +34,45 @@ p {
         font-size: 1.2em;
     }
 }
+@media (max-width: 1080px) {
+    .invitation-container {
+        padding: 20px;
+    }
+
+    .date-time-location p {
+        font-size: 2.2em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .invitation-container {
+        padding: 15px;
+    }
+
+    .date-time-location p {
+        font-size: 1.7em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 1.5em;
+    }
+}
+
+/* Telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+    .invitation-container {
+        padding: 10px;
+    }
+
+    .date-time-location p {
+        font-size: 1em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 0.8em;
+    }
+}
