@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('daisy1.jpg');
+    background-image: url('/home/hp/Transferências/daisy1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,4 +22,32 @@ body {
 p {
     font-family: 'Dancing Script', cursive;
     color: black;
+}
+@media (max-width: 768px) {
+    .invitation-container {
+        padding: 15px;
+    }
+
+    .date-time-location p {
+        font-size: 1.2em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 1em;
+    }
+}
+
+/* Telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+    .invitation-container {
+        padding: 10px;
+    }
+
+    .date-time-location p {
+        font-size: 1em;
+    }
+
+    .top-left p, .bottom-right p {
+        font-size: 0.9em;
+    }
 }
